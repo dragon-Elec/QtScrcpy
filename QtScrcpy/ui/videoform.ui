@@ -16,12 +16,6 @@
   <property name="windowTitle">
    <string/>
   </property>
-  <property name="styleSheet">
-   <string notr="true">#videoForm {
-	border-image: url(:/res/phone-v.png) 150px 142px 85px 142px;
-	border-width: 150px 142px 85px 142px;
-}</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
     <number>0</number>
