@@ -97,6 +97,7 @@ int main(int argc, char *argv[])
 #endif
 
     // load style sheet
+    /*
     QFile file(":/qss/psblack.css");
     if (file.open(QFile::ReadOnly)) {
         QString qss = QLatin1String(file.readAll());
@@ -105,6 +106,7 @@ int main(int argc, char *argv[])
         // qApp->setStyleSheet(qss); //
         file.close();
     }
+    */  //
 
     qsc::AdbProcess::setAdbPath(Config::getInstance().getAdbPath());
 
