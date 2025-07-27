@@ -1,4 +1,4 @@
-﻿#include <QApplication>
+#include <QApplication>
 #include <QDebug>
 #include <QFile>
 #include <QSurfaceFormat>
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
         QString qss = QLatin1String(file.readAll());
         QString paletteColor = qss.mid(20, 7);
         qApp->setPalette(QPalette(QColor(paletteColor)));
-        qApp->setStyleSheet(qss);
+        // qApp->setStyleSheet(qss); //
         file.close();
     }
 
